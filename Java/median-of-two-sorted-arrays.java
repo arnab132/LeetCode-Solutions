@@ -1,7 +1,7 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         
-        //Easy for Binary search on smaller length array
+        //Easy for Binary search on smaller length Array
         //Checking the length and calling the main Function with smaller len array as forst array
         if(nums1.length > nums2.length){
            return findMedianSortedArrays(nums2,nums1);
